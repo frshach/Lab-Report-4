@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Exercise 4 - Responsive Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Farisha's Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#form">Contact Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <article>
+                <h2>All about me</h2>
+                <p>My name is <strong>Nur Farisha Batrisyia.</strong> <em>I am a software engineer student.</em> I'm currently in year 2. </p>
+            </article>
+        </section>
+
+        <section id="media">
+            <h2>My Favourite Song</h2>
+            <video width="500" height="300" controls>
+                <source src="pramleesaloma.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p><em>Caption:</em> Lagu P Ramlee Saloma by ALYPHS.</p>
+        </section>
+
+        <section id="form">
+            <h2>Tell Me About You</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label><br><br>
+
+                <label>Favorite Hobbies:</label><br>
+                <input type="checkbox" id="reading" name="hobby" value="Reading">
+                <label for="reading">Reading</label>
+                <input type="checkbox" id="gaming" name="hobby" value="Gaming">
+                <label for="gaming">Gaming</label>
+                <input type="checkbox" id="travel" name="hobby" value="Travel">
+                <label for="travel">Travel</label><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Farisha's Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
